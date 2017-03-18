@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Akash</title>
+    <title>About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,8 +41,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
-                </button>
-               
+                
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,14 +68,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Welcome</h1>
+                    <div class="page-heading">
+                        <h1>About Me</h1>
                         <hr class="small">
-                        <span class="subheading">A place which explain technical stuff in layman approach..</span>
+                        <span class="subheading">This is what I do.</span>
                     </div>
                 </div>
             </div>
@@ -87,38 +86,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title" style="color:blue;">
-                            How to write Blog
-                        </h2>
-                        <h3 class="post-subtitle">
-                           <i> A novice approach for beginners in a top down manner to fire up your blog in just about 10 minutes...</i>
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted on March 17 2017</p>
-                </div>
-                <hr>
-               </a>
-
-<div class="post-preview">
-                    <a href="ip.html">
-                        <h2 class="post-title" style="color:blue;">
-                            How to make change in Linux ip command
-                        </h2>
-                        <h3 class="post-subtitle">
-                           <i> An easy to follow approach to dig far into linux exploration</i>
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted on March 18 2017</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+                <p>My name is <i>Akash chaudhary</i>. I am a part-time blogger and full time student.I am the author of this blog which is all about explaining geeky stuff in layman or brain friendly way.</p>
+                <p>I guess you are here because you wannt to know about me. huh? I am not all that good at talking about myself But still will give it a try.</p>
+                <p>I am a student pursuing my b.tech in <i>Information Technology </i> in the second year.I am very much paasionate about technology .My current areas of interest are <i>Open Source Technology, Cloud Computing and Blogging </i></p>
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Akash</title>
+    <title>posts</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-               
+                
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,63 +69,49 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/linux.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Welcome</h1>
-                        <hr class="small">
-                        <span class="subheading">A place which explain technical stuff in layman approach..</span>
+                    <div class="post-heading">
+                        <h1 style="text-align:right; color:green;"> Modifying commands... </h1>
+                         <hr class="medium">
+</br>
+                        <h2 class="subheading" style="color:yellow;">10 minute road to modifying Linux commands</h2>
+                        <span class="meta">Posted by <i>Akash chaudhary</i> <a href="#"></a> on March 18, 2014</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title" style="color:blue;">
-                            How to write Blog
-                        </h2>
-                        <h3 class="post-subtitle">
-                           <i> A novice approach for beginners in a top down manner to fire up your blog in just about 10 minutes...</i>
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted on March 17 2017</p>
-                </div>
-                <hr>
-               </a>
-
-<div class="post-preview">
-                    <a href="ip.html">
-                        <h2 class="post-title" style="color:blue;">
-                            How to make change in Linux ip command
-                        </h2>
-                        <h3 class="post-subtitle">
-                           <i> An easy to follow approach to dig far into linux exploration</i>
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted on March 18 2017</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <!-- Footer -->
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                 <p>Linux is great, easy to use and most popular operating system against proprietry OS like Microsoft MAC.It's greatness lies in the fact that it is an <i>Open Sorce OS </i> which allows anyone to view as well as modify it's source code as per one need </p>
+<p>In today's post we will be modifying Linux <b>IP</b>command .. Sounds Good hah so hold on have patience and follow me no more wait <i>Not on twitter :) but here</i> </p>
+<h2>First lets check what we get from "ip -s" command </h2>
+<img src="img/ip/0.png" class="img-responsive">
+<h2 style="color:blue;text-shadow: 2px 1px silver;text-align:center;font-size:2em;">STEP 1::</h2>
+<p align="center">First download <b>IPROUTE_2</b> module from below link</p>
+<a href="https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-4.9.0.tar.xz" target="_blank" style="color:green;text-align:center;" align="center"><p align="center"><i>Download iproute2</i></p></a>
+<h2 style="color:blue;text-shadow: 2px 1px silver;text-align:center;font-size:2em;">STEP 2::</h2>
+<p>Now unzip directory to your preferred location and searh "ip.c" in directory  and open <i>ip.c</i></p>
+<img src="img/ip/1.png" class="img-responsive">
+<h2 style="color:blue;text-shadow: 2px 1px silver;text-align:center;font-size:2em;">STEP 3::</h2>
+<p>Let's change some content in <b>fprint</b> function according to your preference. I have done something like below and save after editing..</p>
+<img src="img/ip/3.png" class="img-responsive">
+<h2 style="color:blue;text-shadow: 2px 1px silver;text-align:center;font-size:2em;">STEP 4::</h2>
+<p>Now open terminal and run following command::<br><i><b>make<br>sudo cd /sbin<br>sudo rm ip<br> sudo cp ip /sbin</i></b></p></b>
+<h2 style="color:blue;text-shadow: 2px 1px silver;text-align:center;font-size:2em;">STEP 5::</h2>
+<p>Now run <i><b> ip -s </i></b> command </p>
+<img src="img/ip/5.png" class="img-responsive">
+<h1 style="color:red;text-align:center;text-shadow:2px 3px purple;"><i>HURRAY</i><h1>
+<h2 style="text-align:center;color:olive;"><i>Congrats.. You have just editted largest Open Source OS </h2>
+<p><b>If you still facing any problem then just contact me anytime .I be more than happy to help :)</b></p>
+   <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
