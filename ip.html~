@@ -74,8 +74,8 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1 style="text-align:right; color:#1976d2;"> Modifying commands... </h1>
-                         <hr class="medium">
+                        <h1 style="text-align:right; color:#fffde7;"> Changing Commands In... </h1>
+                      
 </br>
                         <h2 class="subheading" style="color:yellow;">10 minute road to modifying Linux commands</h2>
                         <span class="meta">Posted by <i>Akash chaudhary</i> <a href="#"></a> on March 18, 2014</span>
@@ -109,7 +109,7 @@
 <p>Now run <i><b> ip -s </i></b> command </p>
 <img src="img/ip/5.png" class="img-responsive">
 <h1 style="color:red;text-align:center;text-shadow:2px 3px purple;"><i>HURRAY</i><h1>
-<h2 style="text-align:center;color:olive;"><i>Congrats.. You have just editted largest Open Source OS </h2>
+<h2 style="text-align:center;color:olive;"><i>Congrats.. You just have edited largest Open Source OS </h2>
 <p><b>If you still facing any problem then just contact me anytime .I be more than happy to help :)</b></p>
    <!-- Footer -->
     <footer>
