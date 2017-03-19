@@ -106,7 +106,7 @@
 <p>The data and instructions are retrieved from RAM when CPU uses them for the first time. A copy of that data or instructions is stored in cache. The next time the CPU needs that data or instructions, it first looks in cache. If the required data is found there, it is retrieved from cache memory instead of main memory. It speeds up the working of CPU. </p>
 <h2 class="subheading" style="color:olive;text-align:center;"><i>Why you should use it</i></h2>
 <p>As you have noted that function of Cache is to speed up the transfer of data from ram so that instead of accessing ram every time for next instruction the CPU looks for the data in Cache and there are very high probability that required data is already stored in cache therefor this process make the access time very less hence greater speed.</p>
-<p><h2 class="subheading" style="color:olive;text-align:center;"><i><u>Types of Cache</i></u></h2><br>
+<p><h2 class="subheading" style="color:olive;text-align:center;"><i>Types of Cache</i></h2><br>
 A computer can have several different levels of cache memory. The level numbers refers to distance from CPU where Level 1 is the closest. All levels of cache memory are faster than RAM. The cache closest to CPU is always faster but generally costs more and stores less data then other level of cache. </p>
 <img  src="img/cache/cache.gif"  class="img-responsive">
 <h3 align="center" style="color:#2196f3;"> <i>Level 1 (L1) Cache::</i></h3> 
