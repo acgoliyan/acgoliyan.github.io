@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>posts</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="background-color:#ffe082;">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Posts</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/c.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Cache Memory </h1>
+                         <hr class="medium">
+</br>
+                        <h2 class="subheading" style="color:olive;"><i>A very fast memory...</i></h2>
+                        <span class="meta">Posted by <i>Akash chaudhary</i> <a href="#"></a> on March 18, 2014</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+<h2 class="section-heading"></h2>
+
+<p>Hello Today I will be explaining cache memory from scratch.After reading this post you will have clear understanding of following topics..</p>
+<ul style="color:#0288d1;font-family:cursive;">
+<li>What is Cache Memory</li>
+<li>How Cache works</li>
+<li>Why should you use it</li>
+<li>Cache types</li>
+</ul>
+ <h2 class="subheading" style="color:olive;text-align:center;"><i>What is Cache Memory</i></h2>
+  <p>A Cache (Pronounced as “cash”) is a small and very fast temporary storage memory. It is designed to speed up the transfer of data and instructions. It is located inside or close to the CPU chip. It is faster than RAM and the data/instructions that are most recently or most frequently used by CPU are stored in cache. </p>
+<h2 class="subheading" style="color:olive;text-align:center;"><i>How Cache works</i></h2>
+<p>The data and instructions are retrieved from RAM when CPU uses them for the first time. A copy of that data or instructions is stored in cache. The next time the CPU needs that data or instructions, it first looks in cache. If the required data is found there, it is retrieved from cache memory instead of main memory. It speeds up the working of CPU. </p>
+<h2 class="subheading" style="color:olive;text-align:center;"><i>Why you should use it</i></h2>
+<p>As you have noted that function of Cache is to speed up the transfer of data from ram so that instead of accessing ram every time for next instruction the CPU looks for the data in Cache and there are very high probability that required data is already stored in cache therefor this process make the access time very less hence greater speed.</p>
+<p><h2 class="subheading" style="color:olive;text-align:center;"><i><u>Types of Cache</i></u></h2><br>
+A computer can have several different levels of cache memory. The level numbers refers to distance from CPU where Level 1 is the closest. All levels of cache memory are faster than RAM. The cache closest to CPU is always faster but generally costs more and stores less data then other level of cache. </p>
+<img  src="img/cache/cache.gif"  class="img-responsive">
+<h3 align="center" style="color:#2196f3;"> <i>Level 1 (L1) Cache::</i></h3> 
+<p>
+
+It is also called primary or internal cache. It is built directly into the processor chip. It has small capacity from 8 Km to 128 Kb.</p>
+<h3 align="center" style="color:#2196f3;"> <i>Level 2 (L2) Cache::</i></h3> 
+<p>It is slower than L1 cache. Its storage capacity is more, i-e. From 64 Kb to 16 MB. The current processors contain advanced transfer cache on processor chip that is a type of L2 cache. The common size of this cache is from 512 kb to 8 Mb.</p>
+<h3 align="center" style="color:#2196f3;"> <i>Level 3 (L3) Cache::</i></h3>
+<p>This cache is separate from processor chip on the motherboard. It exists on the computer that uses L2 advanced transfer cache. It is slower than L1 and L2 cache. The personal computer often has up to 8 MB of L3 cache.
+
+                    <h2 class="section-heading"></h2>
+
+
+                    
+                                      <span class="caption text-muted"></span>
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; acgoliyan</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
