@@ -98,8 +98,10 @@
                     </a>
                     <p class="post-meta">Posted on March 17 2017</p>
                 </div>
+               
+           
                 <hr>
-               </a>
+
 <div class="post-preview">
                     <a href="ip.html">
                         <h2 class="post-title" style="color:blue;">
@@ -108,8 +110,21 @@
                         <h3 class="post-subtitle">
                            <i> An easy to follow approach to dig far into linux exploration</i>
                         </h3>
-                    </a>
+                 
+                   </a>
                     <p class="post-meta">Posted on March 18 2017</p>
+                </div>
+                <hr>
+<div class="post-preview">
+                    <a href="ip.html">
+                        <h2 class="post-title" style="color:blue;">
+                            Cache Memory In Nutshell
+                        </h2>
+                        <h3 class="post-subtitle">
+                           <i> A brief introduction on Cache Memory and it's uses</i>
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted on March 19 2017</p>
                 </div>
                 <hr>
                 <!-- Pager -->
